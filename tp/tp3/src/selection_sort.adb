@@ -1,24 +1,32 @@
 with Ada.Text_IO;
 use Ada.Text_IO;
+with Ada.Integer_Text_IO;
+use Ada.Integer_Text_IO;
 
 procedure Selection_Sort is
 
-	Capacity : CONSTANT Integer := 6;
+	Capacity : CONSTANT Integer := 10;
 	Type T_List is Array (1..Capacity) of Integer;
 
 	Type T_Vector is record
 		List : T_List;
-		Length : Integer; -- { 0 <= Length <= Capacity }
+		Length : Integer; -- { 1 < Length <= Capacity }
 	end record;
 
 	Vector : T_Vector;
+	Number_items : Integer;
 	Init_Index : Integer;
 
-	function Init_Vector return T_Vector is
+	function Init_Vector ( Number_items : in Integer) return T_Vector is
 		Vector : T_Vector;
 	begin
-		Vector.Length := Capacity;
-		Vector.List := (8, 2, 9, 5, 1, 7);
+		Vector.Length := Number_items;
+		New_Line(1);
+		for i in 1..Number_Items loop
+			Put("Type the" & Integer'Image(i) & " item : ");
+			Get(Vector.List(i));
+		end loop;
+		New_Line(1);
 		return Vector;
 	end Init_Vector;
 
@@ -54,11 +62,36 @@ procedure Selection_Sort is
 	end Permute;
 
 begin
-	Vector := Init_Vector;
-	Init_index := 1;
+	Init_Index := 1;
 	
 	Put_Line("************************Selection sort ************************");
 	New_Line(1);
+	
+        Get_Length:
+	loop
+		Put("Enter the length of your vector, length should be least than" & Integer'Image(Capacity) & " : ");
+		Get(Number_Items);
+		if Number_Items = 0 then
+			New_Line(1);
+			Put_Line("Error : Length should be greater than 1 and least than" & Integer'Image(Capacity) & ".");
+			Put_Line("Your list is void, you have nothing to sort.");
+			Put_Line("Please try again!");
+		elsif Number_Items = 1 then
+                        New_Line(1);
+                        Put_Line("Error : Length should be greater than 1 and least than" & Integer'Image(Capacity) & ".");
+			Put_Line("Your list is already sorted, you have just one item.");
+                        Put_Line("Please try again!");
+		elsif Number_Items < 0 then
+			New_Line(1);
+			Put_Line("Error : Length should be greater than 1 and least than" & Integer'Image(Capacity) & ".");
+			Put_Line("Please try again!");
+		end if;
+		New_Line(1);
+        	exit Get_Length when Number_Items > 1;
+	end loop Get_Length;
+
+	Vector := Init_Vector(number_items);
+
 	Put("Initial vector : ");
 	Print_Vector(Vector);
 
@@ -66,7 +99,7 @@ begin
 	loop
   	       	New_Line(2);
 		Vector.List := Permute(Vector.List, Min_Index_Vector(Vector.List, Init_Index, Vector.Length), Init_Index);
-		Put("After "& Integer'Image(Init_Index) & " step : ");
+		Put("After"& Integer'Image(Init_Index) & " step : ");
 		Print_Vector(Vector);
 		Init_Index := Init_Index + 1; 
 		exit Sort_Vector when Init_Index = Vector.Length;
