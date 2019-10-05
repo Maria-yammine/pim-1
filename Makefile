@@ -3,6 +3,8 @@ MAKE = make
 GNATMAKE = gnatmake
 FLAG = -gnata -gnatwa -g
 SRC_TP3 = $(wildcard tp/tp3/src/*.adb)
+MOVE = mv
+BIN_TP3 = tp/tp3/bin/
 GNATCLEAN = gnatclean
 GIT = git
 ADD = add .
@@ -17,12 +19,14 @@ all :
 
 compile_tp3 : $(SRC_TP3)
 	$(GNATMAKE) $(FLAG) $(SRC_TP3)
-
+	$(MOVE) selection_sort $(BIN_TP3)
+				 
 run_tp3 :
-	./selection_sort
+	./$(BIN_TP3)selection_sort
 
 clean :
 	$(GNATCLEAN) selection_sort
+	rm $(BIN_TP3)*
 
 git :
 	@$(READ) "Enter the message to set up the commit : " message; \
