@@ -1,0 +1,64 @@
+V "GNAT Lib v8"
+M P W=b
+A -gnata
+A -gnatwa
+A -g
+P ZX
+
+RN
+RV NO_IO
+RV SPARK_05
+
+U selection_sort%b	selection_sort.adb	a024be0f NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D selection_sort.adb	20191005165611 28390d55 selection_sort%b
+D system.ads		20180111085525 4635ec04 system%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-imgint.ads		20180111085525 02dbe0c2 system.img_int%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 10|1r6 2r5
+X 6 a-textio.ads
+49K13*Text_IO 471e16 10|1w10 2r9
+242U14*Put 10|37s5 39s9
+263U14*Put_Line 10|41s5
+X 10 selection_sort.adb
+4U11*Selection_Sort 4b11 43l5 43t19
+6i5 Capacity{integer} 7r32 18r26
+7A10 T_List(integer)<integer> 10r13 23r37
+9R10 T_Vector 12e15 14r14 16r41 16r58
+10a9 l{7A10} 19m16 39r34 41r46
+11i9 Length{integer} 18m16 38r26 41r56
+14r5 vector{9R10} 36m5 36m27 36r27 38r19 39r27 41r39 41r49
+16V14 Init_Vector{9R10} 16b14 16<28 21l9 21t20 36s15
+16r28 vector{9R10} 18m9 19m9 20r16
+23V14 Min_Vector{integer} 23b14 23>27 23>45 33l9 33t19 41s28
+23a27 list{7A10} 26r16 28r20 29r32
+23i45 Length{integer} 27r21
+24i5 min{integer} 26m9 28r30 29m25 32r16
+27i13 i{integer} 28r25 29r37
+38i9 i{integer} 39r36
+
