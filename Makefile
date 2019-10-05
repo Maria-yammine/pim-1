@@ -19,13 +19,28 @@ all :
 
 compile_tp3 : $(SRC_TP3)
 	$(GNATMAKE) $(FLAG) $(SRC_TP3)
-	$(MOVE) selection_sort $(BIN_TP3)
-				 
+	$(MOVE) selection_sort check_random_generator $(BIN_TP3)
+		 
 run_tp3 :
+	echo
+	echo "############################### EXO1 ###############################"
+	echo
 	./$(BIN_TP3)selection_sort
+	echo
+	echo "############################### EXO2 ###############################"
+	echo
+	./$(BIN_TP3)check_random_generator
+	echo
+	echo "############################### EXO3 ###############################"
+	echo
+	echo
+	echo "####################################################################"
+	echo
 
+
+	
 clean :
-	$(GNATCLEAN) selection_sort
+	$(GNATCLEAN) selection_sort check_random_generator test_selection_tri
 	rm $(BIN_TP3)*
 
 git :

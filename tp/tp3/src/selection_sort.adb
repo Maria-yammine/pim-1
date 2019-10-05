@@ -16,6 +16,25 @@ procedure Selection_Sort is
 	Vector : T_Vector;
 	Number_items : Integer;
 	Init_Index : Integer;
+	
+	procedure Handle_Error_Input ( Number_Items : In Integer) is
+        begin
+		if Number_Items = 0 then
+                        New_Line(1);
+                        Put_Line("Error : Length should be greater than 1 and least than" & Integer'Image(Capacity) & ".");
+                        Put_Line("Your list is void, you have nothing to sort.");
+                        Put_Line("Please try again!");
+                elsif Number_Items = 1 then
+                        New_Line(1);
+                        Put_Line("Error : Length should be greater than 1 and least than" & Integer'Image(Capacity) & ".");
+                        Put_Line("Your list is already sorted, you have just one item.");
+                        Put_Line("Please try again!");
+                elsif Number_Items < 0 then
+                        New_Line(1);
+                        Put_Line("Error : Length should be greater than 1 and least than" & Integer'Image(Capacity) & ".");
+                        Put_Line("Please try again!");
+                end if;
+	end Handle_Error_Input;
 
 	function Init_Vector ( Number_items : in Integer) return T_Vector is
 		Vector : T_Vector;
@@ -71,21 +90,7 @@ begin
 	loop
 		Put("Enter the length of your vector, length should be least than" & Integer'Image(Capacity) & " : ");
 		Get(Number_Items);
-		if Number_Items = 0 then
-			New_Line(1);
-			Put_Line("Error : Length should be greater than 1 and least than" & Integer'Image(Capacity) & ".");
-			Put_Line("Your list is void, you have nothing to sort.");
-			Put_Line("Please try again!");
-		elsif Number_Items = 1 then
-                        New_Line(1);
-                        Put_Line("Error : Length should be greater than 1 and least than" & Integer'Image(Capacity) & ".");
-			Put_Line("Your list is already sorted, you have just one item.");
-                        Put_Line("Please try again!");
-		elsif Number_Items < 0 then
-			New_Line(1);
-			Put_Line("Error : Length should be greater than 1 and least than" & Integer'Image(Capacity) & ".");
-			Put_Line("Please try again!");
-		end if;
+		Handle_Error_Input ( Number_Items);
 		New_Line(1);
         	exit Get_Length when Number_Items > 1;
 	end loop Get_Length;
