@@ -80,6 +80,12 @@ procedure Selection_Sort is
 		return List;
 	end Permute;
 
+	procedure Check_Sort (Vector : In T_Vector) is
+	begin
+		for i in 1..(Vector.Length - 1) loop
+			assert(Vector.List(i) < Vector.List(i + 1));
+		end loop;
+
 begin
 	Init_Index := 1;
 	
