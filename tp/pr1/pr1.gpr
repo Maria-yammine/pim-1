@@ -1,18 +1,17 @@
-project TP3 is
+project PR1 is
 
-   for Main use ("evaluer_alea.adb", "tri_selection.adb");
+   for Main use ("multiplications.adb");
 
    package Builder is
       for Default_Switches ("ada") use ("-s");
    end Builder;
 
    package Compiler is
-      for Default_Switches ("ada") use ("-gnatwa", "-gnata", "-g");
+      for Default_Switches ("ada") use ("-gnata", "-g", "-gnatwa");
    end Compiler;
 
    package Binder is
       for Default_Switches ("ada") use ("-E");
    end Binder;
 
-end TP3;
-
+end PR1;

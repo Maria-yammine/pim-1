@@ -1,6 +1,6 @@
-project TP3 is
+project TP4 is
 
-   for Main use ("evaluer_alea.adb", "tri_selection.adb");
+   for Main use ("exemple_dates.adb", "exemple_dates_erreurs.adb", "scenario_stock.adb");
 
    package Builder is
       for Default_Switches ("ada") use ("-s");
@@ -14,5 +14,5 @@ project TP3 is
       for Default_Switches ("ada") use ("-E");
    end Binder;
 
-end TP3;
+end TP4;
 

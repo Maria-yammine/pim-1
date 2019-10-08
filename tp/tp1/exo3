@@ -1,0 +1,9 @@
+1.Il manque au début du fichier la ligne "#! /usr/bin/python3" pour que le terminal puisse comprendre et éxecuter un programme python.
+il manquait ":" apres la condition if.
+
+2.il manquait un "then" dans la 33ième ligne. oui elles sont détectées.
+
+3.le typage statisque est generalement la déclaration des variables en haut du fichiers source qui permet tourjours de vérifier si le typage est toujours conforme avec le actions que nous effectuons sur ces variable.
+l'interet d'un compilateur est de traduire un language de haut niveau à un language de bas niveau pour que le PC puisse comprendre et exécuter la tache demandé.
+
+

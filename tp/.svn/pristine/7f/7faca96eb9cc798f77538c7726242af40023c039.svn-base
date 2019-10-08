@@ -1,0 +1,157 @@
+Nom    : MOUDDENE
+Prénom : Hamza
+Groupe : C
+--------------------------------------------------------------------------------
+
+
+Consigne : Dans ce fichier, il faut répondre à la place des "..." et sur les
+lignes qui les suivent.  Le texte déjà écrit doit être conservé !
+
+=====[ Temps passé ]============================================================
+
+Ces informations de temps sont demandées à titre indicatif et ne sont pas
+prises en compte dans la notation du projet.
+
+Toutes les durées sont à saisir en heures.  Par exemple, si vous avez passé
+1h45, il faudra indiquer 1.75.  Si vous avez passé 2h30, il faudra indiquer
+2.5.
+
+Temps total passé sur ce mini-projet (en h) : ...
+Temps passé sur les raffinages (en h) : ...
+
+=====[ Raffinages ]=============================================================
+
+-- Ne donner que les niveaux de raffinages qui sont informatifs.   Il est
+-- généralement inutile de donner le dernier niveau de raffinage s'il ne
+-- contient pas d'étapes non élémentaires.
+
+
+R0 : Réviser les tables de multiplication
+
+
+Exemples : On ne donnera pas d'exemples d'utilisation
+
+
+R1 : Comment R0
+	REPETER
+		réviser les tables de multiplications;
+	JUSQU'A l'utilisateur veut arreter la révision;
+
+R2 : Comment "réviser les tables de multiplications"	
+	demander à l'utilisateur la table qu'il veut réviser;	
+	pour i allant de 1 à 10 faire
+		reviser la table;
+	fin pour;
+	évaluer la prestation de l'utilisateur;
+	proposer de continuer la révision;
+
+R3 : Comment "Demander à l'utilisateur la table qu'il veut réviser"
+	REPETER	
+	afficher message convivial : "Table à réviser : ";
+	lire n;
+	JUSQU'A n >= 1 et n <= 10;
+
+R3 : Comment "Réviser la table"
+	Poser la question;
+	évaluer la réponse;
+
+R3 : Comment "évaluer la prestation de l'utilisateur"
+	SELON erreurs DANS;
+		0      => afficher message convivial "Aucune erreur.Excellent!";
+		1      => afficher message convivial "Une seule  erreur. Très bien.";
+		10     => afficher message convivial "Tout est faux! Volontaire?";
+		autres => Incitation à réviser;
+	FIN_SELON;
+
+R3 : Comment "proposer de continuer la révision"
+	RÉPETER	
+	afficher message convivial "Vous voulez continuer la révision ? si oui tapez 1 sinon tapez 2.";
+	lire continuer; 
+	JUSQU'À continuer = 1 ou continuer = 2;
+
+R4 :  Comment "Poser la question"
+	generer la question;
+	démarrer le chrono;
+	lire réponse;
+
+R4 : Comment "évaluer la réponse"
+	SI réponse := réponse_attendue ALORS
+		afficher message convivial "Bravo!"	
+	SINON
+		afficher message convivial "Mauvaise réponse."
+	FIN_SI
+
+R4 : Comment "Incitation à réviser"
+	Si erreurs > 5 alors
+		afficher message convivial "Il faut apprendre la table de n!"
+	SINON
+		afficher message convivial "Il faut encore travailler la table de n."
+	FIN_SI
+
+R5 : Comment "génerer la question"
+	obtenir un nombre aléatoire
+	afficher un message convivial "(Mi) n * nombre_aléatoire ? "
+	lire reponse
+
+
+	
+ 
+=====[ Test ]===================================================================
+
+* Expliquer rapidement comment vous avez testé votre programme.
+
+On commence d'abord par "des tests nominaux" c'est à dire un nombre correspondant
+à un chiffre allat de 2 jusqu'a 9.
+Puis on regardera attentivement ce qui se passe au bornes "Tests au bornes" en
+ testant les valeurs {0, 1, 10, 11}.
+Et finalement, après avoir vérifié que le programme marche pour "des tests non
+nominaux", ce sont généralement des tests qui aboutissent à des erreurs.
+
+
+=====[ Difficultés ]============================================================
+
+* Indiquer les difficultés rencontrées
+
+...
+
+
+=====[ Questions ]==============================================================
+
+Pour les questions suivantes, il ne s'agit pas de modifier le programme écrit
+mais d'expliquer comment il faudrait le modifier pour prendre en compte les
+évolutions envisagées.
+
+
+* Au lieu de poser 10 questions, on veut en poser 15. Comment faire ?
+
+...
+
+
+* On veut afficher "Bien" si l'utilisateur n'a commis que 2 ou 3 erreurs.
+  Comment modifier le programme ?
+
+...
+
+
+* On veut donner la possibilité à l'utilisateur d'abandonner le programmes en
+  tapant 0 quand on lui demande le résultat d'une multiplication. Quelles
+  modifications faut-il alors faire au programme ? 
+
+...
+
+
+* À la fin d'une série de questions, on veut proposer à l'utilisateur de
+  réviser la table pour laquelle l'utilisateur a commis le plus d'erreurs.
+  Par exemple, s'il se trompe pour 3 * 5, on compte une erreur pour 3 et
+  une erreur pour 5.  Comment faire ?
+
+...
+
+
+=====[ Remarques diverses ]=====================================================
+
+Cette rubrique est libre (et ne sera pas prise en compte dans la notation).
+
+...
+
+--------------------------------------------------------------------------------

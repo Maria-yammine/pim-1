@@ -1,0 +1,806 @@
+<?xml version="1.0"?>
+<Locations>
+  <Project>
+    <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_file>
+    <file_marker column=" 1" line=" 44" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 46" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 41" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 42" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 47" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 48" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 27" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 28" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 26" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 27" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 28" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 24" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 49" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 89" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 90" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 25" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 37" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 38" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 41" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 42" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 41" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 42" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 41" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 44" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 46" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 41" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 44" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 46" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 41" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 44" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 46" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 41" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 44" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 46" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 41" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 44" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 46" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 41" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 44" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 46" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 41" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 44" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 46" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 41" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 44" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 46" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 41" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 44" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 46" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 47" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 48" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 27" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 28" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 26" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 27" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 28" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 24" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 49" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 90" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 91" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 25" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 37" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 38" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 41" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 44" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 46" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 41" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 42" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 41" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 42" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 41" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 44" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 46" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 47" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 48" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 27" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 28" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 26" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 27" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 28" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 24" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 49" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 91" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 43" >
+      <vfs_project />
+      <vfs_file>/applications/gnat/lib/gcc/x86_64-pc-linux-gnu/8.3.1/rts-native/adainclude/s-assert.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 92" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 45" >
+      <vfs_project />
+      <vfs_file>/applications/gnat/lib/gcc/x86_64-pc-linux-gnu/8.3.1/rts-native/adainclude/s-assert.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 64" >
+      <vfs_project />
+      <vfs_file>/applications/gnat/lib/gcc/x86_64-pc-linux-gnu/8.3.1/rts-native/adainclude/s-excdeb.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 92" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/specifier_et_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/dates.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/premier_programme.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/dates.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/premier_programme.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/comprendre_mode_parametre.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/tp2/dates.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 67" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 128" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 51" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 63" line=" 39" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 5" line=" 42" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 122" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 78" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 78" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 11" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 78" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 11" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 80" line=" 65" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 78" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/alea.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/alea.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 11" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/alea.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 11" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/alea.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 19" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/alea.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 19" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/alea.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 65" >
+      <vfs_project />
+      <vfs_file>/applications/gnat/lib/gcc/x86_64-pc-linux-gnu/8.3.1/rts-native/adainclude/a-nudira.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 65" >
+      <vfs_project />
+      <vfs_file>/applications/gnat/lib/gcc/x86_64-pc-linux-gnu/8.3.1/adainclude/a-nudira.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 66" >
+      <vfs_project />
+      <vfs_file>/applications/gnat/lib/gcc/x86_64-pc-linux-gnu/8.3.1/rts-native/adainclude/a-nudira.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 66" >
+      <vfs_project />
+      <vfs_file>/applications/gnat/lib/gcc/x86_64-pc-linux-gnu/8.3.1/adainclude/a-nudira.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 47" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 48" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 49" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 50" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 51" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 54" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 55" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 65" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 14" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 363" >
+      <vfs_project />
+      <vfs_file>/applications/gnat/lib/gcc/x86_64-pc-linux-gnu/8.3.1/rts-native/adainclude/a-exexpr.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>iofwrite.c</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>iofwrite.c</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>iofwrite.c</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>iofwrite.c</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>iofwrite.c</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>iofwrite.c</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>iofwrite.c</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>iofwrite.c</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>iofwrite.c</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>iofwrite.c</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>iofwrite.c</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 51" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 51" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 5" line=" 40" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 66" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 40" >
+      <vfs_project>/home/hmoudden/Bureau/pim/tp/pr1/pr1.gpr</vfs_project>
+      <vfs_file>/home/hmoudden/Bureau/pim/tp/pr1/multiplications.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

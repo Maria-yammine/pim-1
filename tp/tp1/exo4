@@ -1,0 +1,33 @@
+R0 : Afficher le plus petit et le plus grand élément d'une série d'entiers
+
+R1 : Comment R0:
+saisir un entier in: 	
+		 out:n
+définir max in:max
+ 	    out:
+définir min in: min
+	    out:
+afficher in: max & min
+	 out:
+
+R2 : Comment R1
+	entier
+	max
+	min
+	saisir entier
+
+	tant que entier different 0 faire
+		si entier > max alors
+			max <-- entier
+		
+		si entier < min alors
+			min <-- entier
+	
+		sinon
+			rien
+		fin si
+		saisir entier
+	fin tantque
+
+	afficher min
+	afficher max

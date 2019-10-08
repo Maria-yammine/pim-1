@@ -1,0 +1,139 @@
+V "GNAT Lib v2019"
+M P W=b
+A -gnatwa
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U evaluer_alea%b	evaluer_alea.adb	c31e20c7 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.numerics.discrete_random%s
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W alea%s		alea.adb		alea.ali
+W system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+
+D ada.ads		20190518041255 76789da1 ada%s
+D a-except.ads		20190518041255 291912d5 ada.exceptions%s
+D a-flteio.ads		20190518041255 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20190518041254 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20190518041254 bb51c45a ada.numerics%s
+D a-nudira.ads		20190518041254 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20190518041254 72908cdb ada.numerics.discrete_random%b
+D a-stream.ads		20190518041255 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041256 491b781d ada.tags%s
+D a-textio.ads		20190518041256 aef4d56d ada.text_io%s
+D a-tiflio.ads		20190518041254 bf196650 ada.text_io.float_io%s
+D a-unccon.ads		20190518041255 0e9b276f ada.unchecked_conversion%s
+D alea.ads		20190930095602 9fe1c6b1 alea%s
+D alea.adb		20190930095602 ca5296b2 alea%b
+D evaluer_alea.adb	20191007075103 138174bb evaluer_alea%b
+D interfac.ads		20190518041254 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041254 e53d8b8e interfaces.c_streams%s
+D system.ads		20190518041255 4635ec04 system%s
+D s-conca2.ads		20190518041255 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20190518041254 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041255 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041256 078245e4 system.file_control_block%s
+D s-imgint.ads		20190518041254 02dbe0c2 system.img_int%s
+D s-imguns.ads		20190518041255 9ff43cf7 system.img_uns%s
+D s-parame.ads		20190518041256 48ec542b system.parameters%s
+D s-rannum.ads		20190518041255 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20190518041256 20ba1217 system.random_numbers%b
+D s-ransee.ads		20190518041256 01a57b33 system.random_seed%s
+D s-secsta.ads		20190518041256 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041255 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041256 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041256 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041256 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190518041254 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041255 34867c83 system.unsigned_types%s
+D s-valuns.ads		20190518041256 35067db9 system.val_uns%s
+D s-wchcon.ads		20190518041255 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [evaluer_alea standard 9 11 none]
+G r i none [evaluer_alea standard 9 11 none] [alea standard 5 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 2r5 3r6 4r5
+X 3 a-flteio.ads
+20K13*Float_Text_IO[11|46] 15|3w10 4r9
+X 7 a-nudira.adb
+53V16 Random[26|83]{integer} 27|392b13[14|7[15|18]]
+X 10 a-textio.ads
+57K13*Text_IO 727e16 15|1w10 2r9
+264U14*New_Line 15|133s9 142s9 154s5 160s5 167s5 174s5
+465U14*Put 15|34s13 136s9
+508U14*Put_Line 15|134s9 135s9
+X 11 a-tiflio.ads
+82U14*Put 15|137s9[3|20]
+X 13 alea.ads
+5k9*Alea 13e9 15|5w6 19r17
+11U15 Get_Random_Number 15|26s13[18]
+X 15 evaluer_alea.adb
+9U11*Evaluer_Alea 9b11 176l5 176t17
+10i5 Capacity{integer} 11r29
+11A10 T_List(integer)<integer> 13r16
+12R10 T_Generator 15e15 17r59 22r21 31r47 38r42 50r44 62r44 106r24 145r17
+13a9 List{11A10} 26m42 34r41 43r26 53r60 55r49 56r68 65r60 67r49 68r68
+14i9 Length{integer} 24m19 25r31 33r33 42r31 54r31 66r31
+17V14 Init_Generator{12R10} 17b14 17>31 29l9 29t23 150s18 157s18 164s18 171s18
+17i31 Length{integer} 19r26 24r29
+18K17 Mon_Alea[13|5] 20r13
+22r9 Generator{12R10} 24m9 25r21 26m32 26r32 28r16
+25i13 i{integer} 26r47
+31U15 Print_Generator 31b15 31>32 36l9 36t24 151s5
+31r32 Generator{12R10} 33r23 34r31
+33i13 i{integer} 34r46
+38V14 Occurrence{integer} 38b14 38>27 38>55 48l9 48t19 53s27 55s16 56s35
+. 65s27 67s16 68s35
+38r27 Generator{12R10} 42r21 43r16
+38i55 Item{integer} 43r36
+39i9 Count{integer} 41m9 44m17 44r26 47r16
+42i13 i{integer} 43r31
+50V14 Max_Frequency{integer} 50b14 50>29 60l9 60t22 123s16
+50r29 Generator{12R10} 53r39 53r50 54r21 55r28 55r39 56r47 56r58
+51i9 Maxi_Frequency{integer} 53m9 55r60 56m17 59r16
+54i13 i{integer} 55r54 56r73
+62V14 Min_Frequency{integer} 62b14 62>29 72l9 72t22 122s16
+62r29 Generator{12R10} 65r39 65r50 66r21 67r28 67r39 68r47 68r58
+63i9 Mini_Frequency{integer} 65m9 67r60 68m17 71r16
+66i13 i{integer} 67r54 68r73
+105U15 Calculer_Statistiques 105b15 106>9 107>9 108>9 109<9 109<14 110<9
+. 124l9 124t30 152s5 158s5 165s5 172s5
+106r9 Generator{12R10} 122r31 123r31
+107i9 Borne{integer} 112r16 116r47 121r43
+108i9 Taille{integer} 112r30 113r37 114r33 115r26 116r30 121r27
+109i9 Min{integer} 113r22 113r30 115r13 117r20 122m9
+109i14 Max{integer} 114r18 114r26 115r19 117r58 123m9
+110f9 Moyenne{float} 116r13 117r28 117r40 121m9
+131U15 Afficher_Statistiques 131b15 131>38 131>43 131>57 143l9 143t30 153s5
+. 159s5 166s5 173s5
+131i38 Min{integer} 134r48
+131i43 Max{integer} 135r48
+131f57 Moyenne{float} 137r14
+145r5 Generator{12R10} 150m5 151r22 152r28 157m5 158r28 164m5 165r28 171m5
+. 172r28
+146i5 Min{integer} 152m46 153r28 158m49 159r28 165m47 166r28 172m48 173r28
+146i10 Max{integer} 152m51 153r33 158m54 159r33 165m52 166r33 172m53 173r33
+147f5 Moyenne{float} 152m56 153r38 158m59 159r38 165m57 166r38 172m58 173r38
+X 16 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 26 s-rannum.ads
+75V13*Random{16|74M9} 27|221i21
+76V13*Random{16|77M9} 27|221i21
+

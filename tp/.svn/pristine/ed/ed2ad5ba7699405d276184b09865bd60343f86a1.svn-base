@@ -1,0 +1,57 @@
+with Ada.Text_IO; use Ada.Text_IO;
+
+procedure Drone is
+    Choice: Character;
+    Altitude: Integer;
+    Start: Integer;
+begin
+    Altitude := 0;
+    Start := 0; 
+    Put_Line("Current Altitude :" &Integer'Image(Altitude));
+    Put_Line("Menu");
+    Put_Line("s -- Start");
+    Put_Line("u -- Up");
+    Put_Line("d-- Down");
+    Put_Line("q -- Quit");
+    Put("What to do : ");
+    get(Choice);
+    while true loop
+	case Choice is
+	    when 's' | 'S' =>	
+		Start := 1;
+	    when 'u' | 'U' => 
+		if Altitude = 4 then
+		    Altitude := 5;
+		    Put_line("drone out of reach");
+		    exit;
+		end if;
+		if Start = 0 then
+		    Put_line("Engine shutting down");
+		else    
+		    Altitude := Altitude + 1;
+		end if;
+	    when 'd' | 'D' =>	
+		if Start = 0 then
+		    Put_line("Engine shutting down");
+		end if;
+		if Altitude = 0 then
+		    Put_line("Impossible move");
+		else
+		    Altitude := Altitude - 1;
+		end if;
+	    when 'q' | 'Q' =>
+		Put_Line("GOODBYE");
+		exit;
+	    when others => null;
+	end case;
+	Put_Line("Current Altitude :" &Integer'Image(Altitude));
+	Put_Line("Menu");
+	Put_Line("s -- Start");
+	Put_Line("u -- Up");
+	Put_Line("d-- Down");
+	Put_Line("q -- Quit");
+	Put("What to do : ");
+	get(Choice);
+    end loop;
+
+end Drone;
