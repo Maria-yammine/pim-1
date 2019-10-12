@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__puissance.o
+[PROJECT FILES]
+/home/hamza/Desktop/studies/enseeiht/S5/pim/tp/tp1/tp1.gpr
+20191012204158
+[BOUND OBJECT FILES]
+/home/hamza/Desktop/studies/enseeiht/S5/pim/tp/tp1/obj/puissance.o
+[GENERATED SOURCE FILES]
+b__puissance.ads
+b__puissance.adb
+b__puissance.ali
+[RESULTING OPTIONS]
+-L/home/hamza/Desktop/studies/enseeiht/S5/pim/tp/tp1/obj/
+-L/home/hamza/Desktop/studies/enseeiht/S5/pim/tp/tp1/obj/
+-L/usr/lib/gcc/x86_64-linux-gnu/8/adalib/
+-shared
+-shared-libgcc
+-lgnat-8
+-ldl
+[RUN PATH OPTION]
+/usr/lib/gcc/x86_64-linux-gnu/8/adalib/
+/usr/lib
