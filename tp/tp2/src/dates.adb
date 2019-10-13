@@ -68,6 +68,30 @@ procedure Dates is
         end if;
     end next_day;
 
+    -- Procedure that tests the is_leap function.
+    procedure test_is_leap is
+    begin
+        pragma assert(False = Is_Leap (2019));
+        Pragma assert(True = Is_Leap (2020));
+        Pragma assert(True = Is_Leap (2016));
+        Pragma assert(False = Is_Leap (2021));
+    end test_is_leap;
+
+    -- Procedure that tests the Calcul_Days_Of_Month function.
+    procedure test_calcul_days is
+    begin
+        pragma assert(28 = Calcul_Days_Of_Month (2, 2019));
+        Pragma assert(31 = Calcul_Days_Of_Month (10, 2019));
+        Pragma assert(30 = Calcul_Days_Of_Month (9, 2019));
+        Pragma assert(31 = Calcul_Days_Of_Month (12, 2019));
+    end test_calcul_days;
+
 begin
+    -- Execute the precedent sub-programs.
     next_day (29, 2, 2019);
+    next_day (13, 10, 2019);
+
+    -- Test the sub-programs.
+    test_calcul_days;
+    test_is_leap;
 end Dates;
