@@ -36,7 +36,6 @@ project _Auto is
       for Object_File_Suffix ("simulink") use "-";
       for Object_File_Suffix ("python") use ".pyc";
       for Object_File_Suffix ("css") use "-";
-      for Object_File_Suffix ("wsdl") use "-";
       for Object_File_Suffix ("c++") use ".o";
       for Object_File_Suffix ("c") use ".o";
       for Object_File_Suffix ("ada") use ".o";
@@ -74,7 +73,6 @@ project _Auto is
       for Body_Suffix ("simulink") use ".mdl";
       for Body_Suffix ("python") use ".py";
       for Body_Suffix ("css") use ".css";
-      for Spec_Suffix ("wsdl") use ".wsdl";
       for Spec_Suffix ("c++") use ".hh";
       for Body_Suffix ("c++") use ".cpp";
       for Spec_Suffix ("c") use ".h";
