@@ -31,7 +31,7 @@ begin
             if n >= 0 then -- If the exponent is greater than 0.
                 res := ((x ** 2) ** p) * x;
             else
-                res := res * (Float(1) / ((x ** 2) ** p) * x);
+                res := (res / (((x ** 2) ** p) * x));
             end if;
 
         end if;
