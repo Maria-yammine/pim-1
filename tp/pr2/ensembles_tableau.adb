@@ -44,7 +44,7 @@ package body Ensembles_Tableau is
     	i : Integer;
     begin
 	i := 1;
-	while ( i <= Capacite) loop
+	while ( i <= Taille (Ensemble)) loop
 	    if (Ensemble.Tab(i) = Element) Then
 		Ensemble.Tab(i) := Ensemble.Tab(Ensemble.Taille);
 		Ensemble.Taille := Ensemble.Taille - 1;

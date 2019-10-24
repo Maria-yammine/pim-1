@@ -14,7 +14,7 @@ procedure Nombre_Moyen_Tirages_Tableau is
     	new Alea (Min, Max);  -- générateur de nombre dans l'intervalle [1, 10].
     use Mon_Alea;
 
-    package Ensembles_Entiers is
+    package Ensembles_Entiers is -- Instantiation du package Ensembles_Entiers.
 	new Ensembles_Tableau (Capacite => 100, T_Element => Integer);
     use Ensembles_Entiers;
 

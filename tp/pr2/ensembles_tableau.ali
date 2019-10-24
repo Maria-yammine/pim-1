@@ -1,0 +1,56 @@
+V "GNAT Lib v8"
+A -gnatwa
+A -gnata
+A -g
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV SPARK_05
+
+U ensembles_tableau%b	ensembles_tableau.adb	a0de245f NE OO PK GE
+
+U ensembles_tableau%s	ensembles_tableau.ads	f23f5462 BN EE NE OO PK GE
+
+D ensembles_tableau.ads	20191024195638 f23f5462 ensembles_tableau%s
+D ensembles_tableau.adb	20191024202758 52e1703d ensembles_tableau%b
+D system.ads		20180111085525 4635ec04 system%s
+X 1 ensembles_tableau.ads
+4i5 Capacite{integer} 30r44 45r33
+5+10 T_Element 26r70 29r71 34r73 40r58 45r46 2|25r66 37r67 43r69
+7k9*Ensembles_Tableau 4z5 5z10 45E14 52l5 52e22 2|3b14 63l5 63t22
+9R14*T_Ensemble 12r47 16r45 20r42 23r40 26r45 29r46 34r48 41r53 47c14 50e19
+. 2|5r43 10r40 15r38 20r36 25r41 37r42 43r44 56r49
+12U19*Initialiser 12<32 2|5b15 8l9 8t20
+12r32 Ensemble{9R14} 13r35 2|5b28 7m9
+16U20*Detruire 16<30 2|10b15 13l9 13t17
+16r30 Ensemble{9R14} 17r32 2|10b25 12m9
+20V18*Est_Vide{boolean} 13s25 17s22 20>28 35s28 2|15b14 18l9 18t17
+20r28 Ensemble{9R14} 2|15b24 17r16
+23V18*Taille{integer} 23>26 30s24 2|20b14 23l9 23t15 29s21 47s22
+23r26 Ensemble{9R14} 2|20b22 22r16
+26V18*Est_Present{boolean} 26>31 26>57 30s61 31s25 35s52 36s29 2|25b14 35l9
+. 35t20
+26r31 Ensemble{9R14} 2|25b27 29r29 30r17
+26*57 Element{5+10} 2|25b53 30r35
+29U19*Ajouter 29=28 29>58 2|37b15 41l9 41t16
+29r28 Ensemble{9R14} 30r32 30r74 31r38 2|37b24 39m9 39r28 40m9 40r22
+29*58 Element{5+10} 30r84 31r48 2|37b54 40r42
+34U19*Supprimer 34=30 34>60 2|43b15 54l9 54t18
+34r30 Ensemble{9R14} 35r38 35r65 36r42 2|43b26 47r30 48r17 49m17 49r36 49r49
+. 50m17 50r36
+34*60 Element{5+10} 35r75 36r52 2|43b56 48r35
+40U32 Operation 40>43 2|59s13
+40*43 Un_Element{5+10}
+41u19*Appliquer_Sur_Tous 41>39 2|56b15 61l9 61t27
+41r39 Ensemble{9R14} 2|56b35 58r21 59r24
+45A14 T_Tab(5+10)<integer> 48r19
+48a13 Tab{45A14} 2|30r26 40m18 48r26 49m26 49r45 59r33
+49i13 Taille{integer} 2|7m18 12m18 17r25 22r25 39m18 39r37 40r31 49r58 50m26
+. 50r45 58r30
+X 2 ensembles_tableau.adb
+26b9 present{boolean} 28m9 31m17 34r16
+29i13 i{integer} 30r30
+44i9 i{integer} 46m9 47r17 48r30 49r30 52m13 52r18
+58i13 i{integer} 59r38
+
