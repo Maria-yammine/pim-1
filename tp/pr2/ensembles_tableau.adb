@@ -7,7 +7,7 @@ package body Ensembles_Tableau is
     	Ensemble.Taille := 0;
     end Initialiser;
 
-    procedure Detruire (Ensemble : out T_Ensemble) is
+    procedure Detruire (Ensemble : in out T_Ensemble) is
     begin
  	Ensemble.Taille := 0;
     end Detruire;

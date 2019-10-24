@@ -13,7 +13,7 @@ package Ensembles_Tableau is
         	Post => Est_Vide (Ensemble);
 	
 	-- Détruire un ensemble (libérer les ressources qu’il utilise).
-         procedure Detruire (Ensemble : out T_Ensemble) with
+        procedure Detruire (Ensemble : in out T_Ensemble) with
 	     Post => Est_Vide (Ensemble);
 
     	-- Est-ce que l'ensemble est vide ?
