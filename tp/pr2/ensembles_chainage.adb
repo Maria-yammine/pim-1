@@ -91,7 +91,7 @@ package body Ensembles_Chainage is
 		Free (Temp);
 	end if;
 	
-	while ( Temp /= Null and Temp.all.Element /= Element) loop
+	while ( Temp /= Null and then Temp.all.Element /= Element) loop
 		Precedent := Temp;
 		Temp := Temp.all.Suivant;
 	end loop;

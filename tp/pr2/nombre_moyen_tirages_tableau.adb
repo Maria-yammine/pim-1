@@ -2,7 +2,7 @@ with Ensembles_Tableau;
 with Alea;
 with Ada.Text_IO; use Ada.Text_IO;
 
--- Cette procédire calculera le nombre moyen de tirages qu’il faut
+-- Cette procédure calculera le nombre moyen de tirages qu’il faut
 -- faire pour obtenir tous les nombres d’un intervalle entier Min..Max en 
 -- utilisant le générateur de nombre aléatoire.
 procedure Nombre_Moyen_Tirages_Tableau is
@@ -11,10 +11,10 @@ procedure Nombre_Moyen_Tirages_Tableau is
     Essais : Constant integer := 100; -- Le nombre d'essais.
 
     package Mon_Alea is
-    	new Alea (Min, Max);  -- générateur de nombre dans l'intervalle [1, 10].
+    	new Alea (Min, Max);  -- Générateur de nombre dans l'intervalle [1, 10].
     use Mon_Alea;
 
-    package Ensembles_Entiers is -- Instantiation du package Ensembles_Entiers.
+    package Ensembles_Entiers is -- Instantiation du package Ensembles_Tableau.
 	new Ensembles_Tableau (Capacite => 100, T_Element => Integer);
     use Ensembles_Entiers;
 
