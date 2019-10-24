@@ -27,13 +27,13 @@ package Ensembles_Tableau is
 
     	-- Ajouter l'élément à l'ensemble.
     	procedure Ajouter (Ensemble : in out T_Ensemble; Element : in T_Element) with
-        	Pre => Taille (Ensemble) < Capacite and Est_Present (Ensemble, Element) = False,
-        	Post => Est_Present (Ensemble, Element) = True;
+        	Pre => Taille (Ensemble) < Capacite and not(Est_Present (Ensemble, Element)),
+        	Post => Est_Present (Ensemble, Element);
 
     	-- Supprimer l'élément de l'ensemble.
     	procedure Supprimer (Ensemble : in out T_Ensemble; Element : in T_Element) with
-        	Pre => not Est_Vide (Ensemble) and Est_Present (Ensemble, Element) = True,
-		Post => Est_Present (Ensemble, Element) = False;
+        	Pre => not Est_Vide (Ensemble) and Est_Present (Ensemble, Element),
+		Post => not(Est_Present (Ensemble, Element));
 	
     	-- Appliquer une opération sur les éléments de l'ensemble.
     	generic
