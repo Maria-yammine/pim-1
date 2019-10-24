@@ -1,0 +1,5 @@
+package Ensembles_Tableau is
+
+	type T_Ensemble is limited private;
+
+end Ensembles_Tableau;

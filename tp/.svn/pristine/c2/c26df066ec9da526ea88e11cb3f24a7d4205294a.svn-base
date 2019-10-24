@@ -1,0 +1,12 @@
+-- Spécification du module Piles.
+
+generic
+    Capacite : Integer;   -- Nombre maximal d'éléments qu'un ensemble peut contenir.
+    type T_Element is private;  -- Type des éléments de l'ensemble.
+
+package Ensembles_Tableau is
+	
+	type T_Ensemble is limited private;
+	
+
+end Ensembles_Tableau;
