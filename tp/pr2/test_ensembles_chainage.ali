@@ -1,0 +1,90 @@
+V "GNAT Lib v8"
+M P W=b
+A -gnatwa
+A -gnata
+A -g
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U test_ensembles_chainage%b  test_ensembles_chainage.adb  cb0f57f9 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.unchecked_deallocation%s
+W ensembles_chainage%s	ensembles_chainage.adb	ensembles_chainage.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20170908151217 eff36322 ada.unchecked_deallocation%s
+D ensembles_chainage.ads  20191025002105 ce743f02 ensembles_chainage%s
+D ensembles_chainage.adb  20191025002112 3894b676 ensembles_chainage%b
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D system.ads		20180111085525 4635ec04 system%s
+D s-assert.ads		20180111085525 cd8d2c94 system.assertions%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+D test_ensembles_chainage.adb  20191025002515 8d66dba1 test_ensembles_chainage%b
+X 1 ada.ads
+16K9*Ada 20e8 27|2r6 2r23
+X 6 a-textio.ads
+49K13*Text_IO 471e16 27|2w10 2r27
+166U14*New_Line 27|90s5 92s5 114s5
+263U14*Put_Line 27|91s5 96s5 100s5 104s5 108s5 112s5 115s5
+X 9 ensembles_chainage.ads
+4+10 T_Element 27|10r33
+6k9*Ensembles_Chainage 52e23 27|1w6 10r13
+8P14 T_Ensemble 27|14r36[7] 23r18[7] 37r18[7] 53r18[7] 69r13[7] 80r13[7]
+11U19 Initialiser 27|16s9[7] 26s9[7] 40s9[7] 56s9[7]
+19V18 Est_Vide{boolean} 27|27s24[7] 29s28[7] 32s28[7] 72s28[7] 75s28[7] 86s24[7]
+22V18 Taille{integer} 27|41s25[7] 43s24[7] 46s24[7] 48s24[7]
+25V18 Est_Present{boolean} 27|57s29[7] 59s25[7] 62s24[7] 62s51[7] 64s28[7]
+. 64s55[7] 74s24[7] 84s24[7]
+28U19 Ajouter 27|17s9[7] 18s9[7] 28s9[7] 42s9[7] 58s9[7] 73s9[7]
+32U19 Supprimer 27|47s9[7] 63s9[7] 83s9[7] 85s9[7]
+X 27 test_ensembles_chainage.adb
+5U11*Test_Ensembles_Chainage 5b11 116l5 116t28
+7K13 Ensemble_Caractere[9|6] 11r9
+14U15 Init 14b15 14<21 19l9 19t13 31s9 45s9 61s9 71s9 82s9
+14p21 Ensemble{9|8P14[7]} 16m22 17m18 18m18
+22U15 Tester_Est_Vide 22b15 33l9 33t24 95s5
+23p9 E1{9|8P14[7]} 26m22 26r22 27r34 28m18 28r18 29r38
+23p13 E2{9|8P14[7]} 31m15 31r15 32r38
+36U15 Tester_Taille 36b15 49l9 49t22 99s5
+37p9 E1{9|8P14[7]} 40m22 40r22 41r34 42m18 42r18 43r33
+37p13 E2{9|8P14[7]} 45m15 45r15 46r32 47m20 47r20 48r32
+52U15 Tester_Est_Present 52b15 65l9 65t27 103s5
+53p9 E1{9|8P14[7]} 56m22 56r22 57r43 58m18 58r18 59r39
+53p13 E2{9|8P14[7]} 61m15 61r15 62r38 62r65 63m20 63r20 64r42 64r69
+68U15 Tester_Ajouter 68b15 76l9 76t23 107s5
+69p9 E{9|8P14[7]} 71m15 71r15 72r38 73m18 73r18 74r37 75r38
+79U15 Tester_Supprimer 79b15 87l9 87t25 111s5
+80p9 E{9|8P14[7]} 82m15 82r15 83m20 83r20 84r37 85m20 85r20 86r34
+

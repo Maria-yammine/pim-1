@@ -1,0 +1,75 @@
+V "GNAT Lib v8"
+A -gnatwa
+A -gnata
+A -g
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U ensembles_chainage%b	ensembles_chainage.adb	1913ea56 NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_deallocation%s
+
+U ensembles_chainage%s	ensembles_chainage.ads	ce743f02 BN EE NE OO PK GE
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-uncdea.ads		20170908151217 eff36322 ada.unchecked_deallocation%s
+D ensembles_chainage.ads  20191025002105 ce743f02 ensembles_chainage%s
+D ensembles_chainage.adb  20191025002112 3894b676 ensembles_chainage%b
+D system.ads		20180111085525 4635ec04 system%s
+X 1 ada.ads
+16K9*Ada 20e8 4|3r6 9r21
+X 2 a-uncdea.ads
+20u15*Unchecked_Deallocation 4|3w10 9r25
+X 3 ensembles_chainage.ads
+4+10 T_Element 25r70 28r71 32r73 38r58 48r26 4|46r66 63r67 84r69
+6k9*Ensembles_Chainage 4z10 42E14 52l5 52e23 4|5b14 118l5 118t23
+8P14*T_Ensemble 11r47 15r48 19r42 22r40 25r45 28r46 32r48 39r53 45c14 49r26
+. 4|9r60 11r43 16r43 26r38 31r36 33r16 46r41 48r16 63r42 64r34 84r44 85r27
+. 108r49 109r16
+11U19*Initialiser 11<32 4|11b15 14l9 14t20
+11p32 Ensemble{8P14} 12r35 4|11b28 13m9
+15U20*Detruire 15=30 4|16b15 19s17 24l9 24t17
+15p30 Ensemble{8P14} 16r32 4|16b25 18r13 19r27 20m23
+19V18*Est_Vide{boolean} 12s25 16s22 19>28 33s28 4|26b14 29l9 29t17
+19p28 Ensemble{8P14} 4|26b24 28r16
+22V18*Taille{integer} 22>26 4|31b14 44l9 44t15
+22p26 Ensemble{8P14} 4|31b22 36r17
+25V18*Est_Present{boolean} 25>31 25>57 29s25 33s52 34s29 4|46b14 61l9 61t20
+25p31 Ensemble{8P14} 4|46b27 51r17
+25*57 Element{4+10} 4|46b53 54r40
+28U19*Ajouter 28=28 28>58 4|63b15 82l9 82t16
+28p28 Ensemble{8P14} 29r38 4|63b24 71r14 72m17 74r25
+28*58 Element{4+10} 29r48 4|63b54 68r41
+32U19*Supprimer 32=30 32>60 4|84b15 106l9 106t18
+32p30 Ensemble{8P14} 33r38 33r65 34r42 4|84b26 87r17 90m17
+32*60 Element{4+10} 33r75 34r52 4|84b56 89r32 94r59
+38U32 Operation 38>43 4|113s17
+38*43 Un_Element{4+10}
+39u19*Appliquer_Sur_Tous 39>39 4|108b15 116l9 116t27
+39p39 Ensemble{8P14} 4|108b35 111r17
+42R14 T_Cellule 45r35 47c14 50e19 4|9r49 67r33
+48*17 Element{4+10} 4|54r30 68m30 89r22 94r48 113r37
+49p17 Suivant{8P14} 4|19m40 40r34 57r34 69m30 76r33 78r42 80m26 90r38 96r34
+. 100m31 100r51 114r34
+X 4 ensembles_chainage.adb
+8U15 Free[2|20] 20s17 91s17 101s17
+32i9 Count{integer} 35m9 39m17 39r26 43r16
+33p9 Temp{3|8P14} 36m9 38r16 40m17 40r25
+47b9 present{boolean} 50m9 55m25 60r16
+48p9 Temp{3|8P14} 51m9 53r16 54r21 57m17 57r25
+64p9 Nouvelle_Cellule{3|8P14} 67m9 68r9 69r9 72r29 80r37
+64p27 Temp{3|8P14} 74m17 76r24 78m25 78r33 80r17
+85p9 Temp{3|8P14} 87m9 89r13 90r29 91m23 91r23 94r17 94r39 95r30 96m17 96r25
+. 99r13 100r42 101m23 101r23
+85p15 Precedent{3|8P14} 95m17 100r17
+109p9 Temp{3|8P14} 111m9 112r16 113r28 114m17 114r25
+
