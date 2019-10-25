@@ -26,7 +26,8 @@ package Ensembles_Chainage is
 
         -- Ajouter l'élément à l'ensemble.
         procedure Ajouter (Ensemble : in out T_Ensemble; Element : in T_Element) with
-                Post => Est_Present (Ensemble, Element);
+                Pre => not(Est_Present (Ensemble, Element)),
+		Post => Est_Present (Ensemble, Element);
 
         -- Supprimer l'élément de l'ensemble.
         procedure Supprimer (Ensemble : in out T_Ensemble; Element : in T_Element) with
