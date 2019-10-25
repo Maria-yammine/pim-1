@@ -97,7 +97,7 @@ package body Ensembles_Chainage is
 	end loop;
 	
 	if (Temp /= Null) then -- Si Element est dans Ensemble.
-		Precedent.all.Suivant := Temp.all.Suivant;
+		Precedent := Temp.all.Suivant;
 		Free (Temp); -- Libérer Temp.
 	else -- Si Element n'est pas trouvé donc on fait rien.
 		Null;
@@ -108,8 +108,7 @@ package body Ensembles_Chainage is
     procedure Appliquer_Sur_Tous (Ensemble : in T_Ensemble) is
     	Temp : T_Ensemble;
     begin
-    	Temp := Ensemble;
-	while (Temp /= NULL) loop
+    	while (Temp /= NULL) loop
 		Operation (Temp.all.Element);
         	Temp := Temp.all.Suivant;
     	end loop;

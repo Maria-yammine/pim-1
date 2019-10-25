@@ -117,11 +117,6 @@ begin
 	Put_Line("Supprimer 7");
         Supprimer (Ens1, 7);
 
-	-- Afficher l'ensemble
-        Put("Ens1 = ");
-        Afficher (Ens1);
-        New_Line;
-
 	-- Vérifier si vide ou non, sa taille, la présence ou pas de 2, 5, 7, 10
 	Put_line("Ens1 est vide : " & Boolean'Image(Est_Vide (Ens1)));
         Put_line("Taille de Ens1 : " & Integer'Image(Taille (Ens1)));
