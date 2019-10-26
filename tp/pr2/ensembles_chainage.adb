@@ -39,7 +39,6 @@ package body Ensembles_Chainage is
 		Count := Count + 1;
 		Temp := Temp.all.Suivant;
 	end loop;
-
         return Count;
     end Taille;
 
@@ -56,20 +55,19 @@ package body Ensembles_Chainage is
             	end if;
                 Temp := Temp.all.Suivant;
         end loop;
-
         return present;
     end Est_Present;
-
+    
     procedure Ajouter (Ensemble : in out T_Ensemble; Element : in T_Element) is
     	Nouvelle_Cellule, Temp : T_Ensemble;
     begin
     	-- Créer une nouvelle cellule
-    	Nouvelle_Cellule := New T_Cellule;
-	Nouvelle_Cellule.all.Element := Element;
-	Nouvelle_Cellule.all.Suivant := Null;
+	Nouvelle_Cellule := New T_Cellule;
+        Nouvelle_Cellule.all.Element := Element;
+        Nouvelle_Cellule.all.Suivant := Null;
 
         if ( Ensemble = Null) then -- Si l'ensemble est vide.
-		Ensemble := Nouvelle_Cellule; 
+		Ensemble := Nouvelle_Cellule;
 	else -- Sinon, on ajoute à la fin de l'ensemble.
 		Temp := Ensemble;
 

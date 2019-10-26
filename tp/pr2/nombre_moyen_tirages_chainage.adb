@@ -39,9 +39,8 @@ begin
             end if;
             exit when Taille (Ensemble) = Max - Min + 1;
         end loop;
-
     end loop;
-
+    
     Moyenne := Moyenne / Essais; -- Calculer la Moyenne.
     Put_Line("le nombre moyen de tirages qu’il faut faire pour obtenir tous");
     Put_Line("les nombres entre" & Integer'Image(Min) & " et" & Integer'Image(Max) & " est : " & Integer'Image(Moyenne));

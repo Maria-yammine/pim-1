@@ -37,21 +37,23 @@ J'ai défini plusieurs types de sous-programmes dans les corps des modules qui
 sont les suivants:
 
 CONSTRUCTEURS:
-	procedure Initialiser (Ensemble : out T_Ensemble);
-	procedure Ajouter (Ensemble : in out T_Ensemble; Element : in T_Element);
+    procedure Initialiser (Ensemble : out T_Ensemble);
+    procedure Ajouter (Ensemble : in out T_Ensemble; Element : in T_Element);
 
 OPERATEURS:
-	procedure Detruire (Ensemble : in out T_Ensemble);
-	function Est_Vide (Ensemble : in T_Ensemble) return Boolean;
-	function Taille (Ensemble : in T_Ensemble) return Integer;
-	function Est_Present (Ensemble : in T_Ensemble; Element : in T_Element) return Boolean;
-	procedure Supprimer (Ensemble : in out T_Ensemble; Element : in T_Element);
-	procedure Appliquer_Sur_Tous (Ensemble : in T_Ensemble);
+    procedure Detruire (Ensemble : in out T_Ensemble);
+    function Est_Vide (Ensemble : in T_Ensemble) return Boolean;
+    function Taille (Ensemble : in T_Ensemble) return Integer;
+    function Est_Present (Ensemble : in T_Ensemble; Element : in T_Element) 
+    return Boolean;
+    procedure Supprimer (Ensemble : in out T_Ensemble; Element : in T_Element);
+    procedure Appliquer_Sur_Tous (Ensemble : in T_Ensemble);
 
-Pourquoi ce choix? Alors en tant que programmeur on s'engage à respecter le cahier des charges,
-ainsi que ces fonctions décrivent parfaitement la notion d'ensemble d'un point de vue mathématique,
-et toute fonction supplémentaire rendra les modules trés spécifique, alors ces sous-programmes
-sont nécessaires et suffisants pour créer un module génerique d'ensemble. 
+Pourquoi ce choix? Alors en tant que programmeur on s'engage à respecter le 
+cahier des charges, ainsi que ces fonctions décrivent parfaitement la notion
+d'ensemble d'un point de vue mathématique, et toute fonction supplémentaire 
+rendra les modules trés spécifique, alors ces sous-programmes sont nécessaires
+et suffisants pour créer un module génerique d'ensemble. 
 
 **Question 2 :**
 Y a-t-il des sous-programmes dont les contrats (préconditions ou
@@ -62,7 +64,8 @@ Lesquels ?
 Le sous-programmes dont les contrats (préconditions ou postconditions) changent
 entre Ensembles_Tableau et Ensembles_Chaine est l'opération ajouter car en 
 version tableau on manipulait la notion de capacité alors que le chainage on
-utilise l'allocation dynamique qui provoque une différence dans la spécification.
+utilise l'allocation dynamique qui provoque une différence dans la 
+spécification.
 
 **Question 3 :**
 Le type Ensemble doit être déclaré comme très privé dans Ensembles_Chaine.

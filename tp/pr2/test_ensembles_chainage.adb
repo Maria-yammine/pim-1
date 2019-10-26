@@ -27,9 +27,11 @@ procedure Test_Ensembles_Chainage is
         pragma Assert (Est_Vide (E1)); -- E1 est vide.
         Ajouter (E1, 'C'); -- E1 = {c}.
         pragma Assert (not Est_Vide (E1)); -- E1 n'est pas vide.
+	Detruire (E1);  -- Libérer la mémoire.
 
         Init (E2); -- E2 = {A, B}.
         pragma Assert (not Est_Vide (E2)); -- E2 n'est pas vide.
+	Detruire (E2);  -- Libérer la mémoire.
     end Tester_Est_Vide;
 
     -- Tester la procédure Taille avec deux ensembles différents.
@@ -41,11 +43,13 @@ procedure Test_Ensembles_Chainage is
         pragma assert ( Taille ( E1) = 0); -- E1.Taille = 0.
         Ajouter (E1, 'Z'); -- E1 = {Z}.
         pragma assert (Taille ( E1) /= 0); -- E1.Taille = 1.
+	Detruire (E1);  -- Libérer la mémoire.
 
         Init (E2); -- E2 = {A, B}.
-        pragma Assert (Taille (E2) = 2); -- E2.Taille = 2.
+	pragma Assert (Taille (E2) = 2); -- E2.Taille = 2.
         Supprimer (E2, 'A'); -- E2 = {B}.
         pragma Assert (Taille (E2) /= 2); -- E2.Taille = 1.
+    	Detruire (E2);  -- Libérer la mémoire.
     end Tester_Taille;
 
     -- Tester la fonction Est_Present avec deux ensembles différents.
@@ -57,11 +61,14 @@ procedure Test_Ensembles_Chainage is
         pragma assert ( Not Est_Present ( E1, 'A')); -- A n'est pas dans E1.
         Ajouter (E1, 'Z'); -- E1 = {Z}.
         pragma assert ( Est_Present ( E1, 'Z')); -- Z est dans E1.
+	Detruire (E1);  -- Libérer la mémoire.
+
 
         Init (E2); -- E2 = {A, B}.
         pragma Assert (Est_Present ( E2, 'A') and Est_Present ( E2, 'B')); -- A et B sont dans E2.
         Supprimer (E2, 'A'); -- E2 = {B}.
         pragma Assert (not Est_Present ( E2, 'A') and Est_Present ( E2, 'B')); -- A n'est pas dans E2, B est dans E2.
+    	Detruire (E2);  -- Libérer la mémoire.
     end Tester_Est_Present;
 
     -- Tester la procédure Ajouter.     
@@ -73,6 +80,7 @@ procedure Test_Ensembles_Chainage is
         Ajouter (E, 'N'); -- E = {A, B, N}.
         pragma Assert (Est_Present (E, 'N')); -- N est dans E.
         pragma Assert (not Est_Vide (E)); -- E n'est pas vide.
+    	Detruire (E); -- Libérer la mémoire.
     end Tester_Ajouter;
 
     -- Tester la procédure Supprimer. 
@@ -84,6 +92,7 @@ procedure Test_Ensembles_Chainage is
         pragma Assert (Est_Present (E, 'O') = False); -- 'O' n'est pas dans E.
         Supprimer (E, 'B'); -- E ={}.
         pragma Assert (Est_Vide (E)); -- E est vide.
+    	Detruire (E);  -- Libérer la mémoire.
     end Tester_Supprimer;
 
 begin
