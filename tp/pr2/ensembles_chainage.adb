@@ -82,27 +82,12 @@ package body Ensembles_Chainage is
     end Ajouter;
 
     procedure Supprimer (Ensemble : in out T_Ensemble; Element : in T_Element) is
-        Temp, Precedent : T_Ensemble;
     begin
-    	Temp := Ensemble;
-
-        if (Temp.all.Element = Element) then
-		Ensemble := Temp.all.Suivant;
-		Free (Temp);
+	if (Ensemble.all.Element = Element) then
+		Ensemble := Ensemble.all.Suivant;
+	else
+		Supprimer (Ensemble.all.Suivant, Element);
 	end if;
-	
-	while ( Temp /= Null and then Temp.all.Element /= Element) loop
-		Precedent := Temp;
-		Temp := Temp.all.Suivant;
-	end loop;
-	
-	if (Temp /= Null) then -- Si Element est dans Ensemble.
-		Precedent.all.Suivant := Temp.all.Suivant;
-		Free (Temp); -- Libérer Temp.
-	else -- Si Element n'est pas trouvé donc on fait rien.
-		Null;
-	end if;
-	
     end Supprimer;
 
     procedure Appliquer_Sur_Tous (Ensemble : in T_Ensemble) is
