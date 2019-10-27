@@ -100,7 +100,12 @@ des éléments de l'ensemble (et linéaire sur le nombre de comparaison) ? Si
 oui, comment ?
 
 **Réponse :**
-Oui, 
+Oui, on va boucler sur le tableau pour comparer l'element du tableau avec 
+l'élement qu'on souhaite supprimer qui va faire une nombre de comparaison
+linéaire ( dans le pire des cas on va boucler n fois ou n correspond à la 
+taille du tableau ), et si l'element du tableau est le meme que celui qu'on
+cherche on change cet élement avec le dernier et on décrement la taille qui 
+fera une affectation en temps constant. 
 
 **Question 6 :**
 Est-ce que les deux implantations envisagées des ensembles (Tableau ou
