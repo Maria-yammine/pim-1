@@ -61,10 +61,10 @@ package body Ensembles_Chainage is
     procedure Ajouter (Ensemble : in out T_Ensemble; Element : in T_Element) is
     	Nouvelle_Cellule, Temp : T_Ensemble;
     begin
-    	-- Créer une nouvelle cellule
+    	--Créer une nouvelle cellule.
 	Nouvelle_Cellule := New T_Cellule;
-        Nouvelle_Cellule.all.Element := Element;
-        Nouvelle_Cellule.all.Suivant := Null;
+	Nouvelle_Cellule.all.Element := Element;
+	Nouvelle_Cellule.all.Suivant := Null;
 
         if ( Ensemble = Null) then -- Si l'ensemble est vide.
 		Ensemble := Nouvelle_Cellule;

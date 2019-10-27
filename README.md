@@ -5,10 +5,13 @@ techniques, etc...
 
 # COMPILE & RUN
 
--To compile and run the program, you have to type:
+-To compile the program, you have to type:
 	
-					make -s
+					gnatmake -gnatwa -gnata -g file.adb
 
--To clean the project, you have to type:
+-To run the program, you have to type:
+					./file
+
+-To clean the program, you have to type:
 			
-					make clean
+					gnatclean *
